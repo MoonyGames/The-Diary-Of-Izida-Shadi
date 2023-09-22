@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient
+/Users/sergejbogatov/Desktop/TheDiaryOfIzidaShadiRepository/The-Diary-Of-Izida-Shadi/The Diary Of Izida Shadi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53941
-Successfully changed project path to: /Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient
-/Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient
+51825
+Successfully changed project path to: /Users/sergejbogatov/Desktop/TheDiaryOfIzidaShadiRepository/The-Diary-Of-Izida-Shadi/The Diary Of Izida Shadi
+/Users/sergejbogatov/Desktop/TheDiaryOfIzidaShadiRepository/The-Diary-Of-Izida-Shadi/The Diary Of Izida Shadi
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,15 +56,15 @@ Successfully changed project path to: /Volumes/SSD/Gambling/Rock of Ancient/Rock
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8618303616] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3086941457 [EditorId] 3086941457 [Version] 1048832 [Id] OSXEditor(0,Sergejs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8618303616] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 1905872134 [EditorId] 1905872134 [Version] 1048832 [Id] OSXEditor(0,Sergejs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8618303616] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3086941457 [EditorId] 3086941457 [Version] 1048832 [Id] OSXEditor(0,Sergejs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8618303616] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 1905872134 [EditorId] 1905872134 [Version] 1048832 [Id] OSXEditor(0,Sergejs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path /Volumes/SSD/Applications/Unity/2022.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient/Assets
+[Subsystems] Discovering subsystems at path /Users/sergejbogatov/Desktop/TheDiaryOfIzidaShadiRepository/The-Diary-Of-Izida-Shadi/The Diary Of Izida Shadi/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -75,7 +75,7 @@ Initialize mono
 Mono path[0] = '/Volumes/SSD/Applications/Unity/2022.3.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Volumes/SSD/Applications/Unity/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Volumes/SSD/Applications/Unity/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56478
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56963
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Volumes/SSD/Applications/Unity/2022.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -84,109 +84,22 @@ Register platform support module: /Volumes/SSD/Applications/Unity/2022.3.5f1/Pla
 Register platform support module: /Volumes/SSD/Applications/Unity/2022.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Volumes/SSD/Applications/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Volumes/SSD/Applications/Unity/2022.3.5f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002831 seconds.
-- Loaded All Assemblies, in  0.203 seconds
+Registered in 0.002395 seconds.
+- Loaded All Assemblies, in  0.240 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
-[usbmuxd] Attached: 73 00008030-001D04EC0AE9802E
 Native extension for iOS target not found
 Native extension for Android target not found
-Unable to list connected devices. 
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/sz/1q4s8gd52qsfskxq0107lm3w0000gn/T//adb.501.log
-Server had pid: 4487
---- adb starting (pid 4487) ---
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] Android Debug Bridge version 1.0.41
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] Version 32.0.0-8006631
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] Installed as /Volumes/SSD/Applications/Unity/2022.3.5f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] 
-adb I 09-21 21:32:30  4486 142810 auth.cpp:417] adb_auth_init...
-adb I 09-21 21:32:30  4486 142810 auth.cpp:152] loaded new key from '/Users/sergejbogatov/.android/adbkey' with fingerprint 85D4360F11557CDCCCA7634B28548A24651B7F55C9D55AAC5F9CC8E5F9C3C685
-adb F 09-21 21:32:30  4487 142818 main.cpp:167] could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-
-UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
-/Volumes/SSD/Applications/Unity/2022.3.5f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
-
-Environment Variables:
-LAUNCH_DARKLY_CLIENT_TOKEN_STAGING = 60a7e30fafc7e60e33446282
-XPC_SERVICE_NAME = application.com.unity3d.unityhub.32464160.32464166
-WOOTRIC_CLIENT_TOKEN = NPS-aa8be4c3
-XPC_FLAGS = 0x0
-DEBUG_ENV_VAR = UnityHub
-HEAP_CLIENT_TOKEN_STAGING = 3786794399
-MallocNanoZone = 0
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-SHELL = /bin/zsh
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ex4IHU73Yw/Listeners
-PATH = /usr/bin:/bin:/usr/sbin:/sbin
-__CFBundleIdentifier = com.unity3d.unityhub
-AMPLITUDE_API_KEY_STAGING = 83ee04fccc67e4fcc7dd527c4c6f1e21
-AMPLITUDE_API_KEY = 28f3cae0b33b8b3702120c9ed1a935aa
-HOME = /Users/sergejbogatov
-USER = sergejbogatov
-LAUNCH_DARKLY_CLIENT_TOKEN = 60a7e30fafc7e60e33446283
-__CF_USER_TEXT_ENCODING = 0x1F5:0x7:0x31
-HEAP_CLIENT_TOKEN = 1717415662
-TMPDIR = /var/folders/sz/1q4s8gd52qsfskxq0107lm3w0000gn/T/
-LOGNAME = sergejbogatov
-SENTRY_ACCESS_TOKEN = 3df78d9e53f8456aa90fbae044ce1a6261421ab1d0014674bc2e933477289017
-JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
-COMMAND_MODE = unix2003
-
-
-stderr[
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/sz/1q4s8gd52qsfskxq0107lm3w0000gn/T//adb.501.log
-Server had pid: 4487
---- adb starting (pid 4487) ---
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] Android Debug Bridge version 1.0.41
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] Version 32.0.0-8006631
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] Installed as /Volumes/SSD/Applications/Unity/2022.3.5f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-adb I 09-21 21:32:30  4487 142818 main.cpp:63] 
-adb I 09-21 21:32:30  4486 142810 auth.cpp:417] adb_auth_init...
-adb I 09-21 21:32:30  4486 142810 auth.cpp:152] loaded new key from '/Users/sergejbogatov/.android/adbkey' with fingerprint 85D4360F11557CDCCCA7634B28548A24651B7F55C9D55AAC5F9CC8E5F9C3C685
-adb F 09-21 21:32:30  4487 142818 main.cpp:167] could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-]
-stdout[
-
-]
-exit code: 1
-  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <8575ccd599f94176ac54c3e24a897458>:0 
-  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <8575ccd599f94176ac54c3e24a897458>:0 
-  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <8575ccd599f94176ac54c3e24a897458>:0 
-  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <8575ccd599f94176ac54c3e24a897458>:0 
-  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <8575ccd599f94176ac54c3e24a897458>:0 
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <8575ccd599f94176ac54c3e24a897458>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:ScanSync ()
-UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-UnityEditor.Android.TargetExtension:OnLoad ()
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:147)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 147)
-
-Android Extension - Scanning For ADB Devices 731 ms
+Android Extension - Scanning For ADB Devices 72 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.999 seconds
-Domain Reload Profiling: 1202ms
-	BeginReloadAssembly (42ms)
+- Finished resetting the current domain, in  0.343 seconds
+Domain Reload Profiling: 583ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -194,26 +107,26 @@ Domain Reload Profiling: 1202ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (97ms)
-		LoadAssemblies (42ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (75ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (95ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (87ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (90ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1000ms)
+	FinalizeReload (344ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (961ms)
+		SetupLoadedEditorAssemblies (304ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (879ms)
+			InitializePlatformSupportModulesInManaged (213ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (53ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			ProcessInitializeOnLoadAttributes (57ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -221,10 +134,10 @@ Domain Reload Profiling: 1202ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.468 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/sergejbogatov/Desktop/TheDiaryOfIzidaShadiRepository/The-Diary-Of-Izida-Shadi/The Diary Of Izida Shadi/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/sergejbogatov/Desktop/TheDiaryOfIzidaShadiRepository/The-Diary-Of-Izida-Shadi/The Diary Of Izida Shadi/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -232,34 +145,34 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.369 seconds
-Domain Reload Profiling: 837ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.379 seconds
+Domain Reload Profiling: 943ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
+		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (328ms)
-		LoadAssemblies (150ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (241ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (188ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (369ms)
+	FinalizeReload (380ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (262ms)
+		SetupLoadedEditorAssemblies (274ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (33ms)
+			BeforeProcessingInitializeOnLoad (41ms)
 			ProcessInitializeOnLoadAttributes (172ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (1ms)
@@ -268,458 +181,30 @@ Domain Reload Profiling: 837ms
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Volumes/SSD/Applications/Unity/2022.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3269 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (71.6 KB). Loaded Objects now: 3741.
-Memory consumption went from 211.3 MB to 211.2 MB.
-Total: 2.540250 ms (FindLiveObjects: 0.118250 ms CreateObjectMapping: 0.038291 ms MarkObjects: 2.189875 ms  DeleteObjects: 0.193250 ms)
+Unloading 3271 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (71.6 KB). Loaded Objects now: 3743.
+Memory consumption went from 212.0 MB to 211.9 MB.
+Total: 2.461333 ms (FindLiveObjects: 0.098458 ms CreateObjectMapping: 0.038917 ms MarkObjects: 2.138208 ms  DeleteObjects: 0.185250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/JoystickEditor.cs: 406670d2fe263f5d7c582f8389f2b844 -> 
-  custom:scripting/monoscript/fileName/TCP2_GradientManager.cs: a8cb5740870b39e316c8a7c50874ce30 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 2ec96b3abad264f4393a91b76b487cb7 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderGeneratorUtils.cs: 9c7aac7c5398a863aa5ef5699292a33b -> 
-  custom:scripting/monoscript/fileName/GameManager.cs: 9933fbcc6190e2a9171c2ec8808a053e -> 
-  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: 9ef810522df7cdd512f52a98ae7a04f9 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/TCP2_GetPosOnWater_Editor.cs: ce4559eba0076e67582edc9e5cd1bf3a -> 
-  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: f92673ca2cd03c2f140cf81ccfee7ccb -> 
-  custom:scripting/monoscript/fileName/SkyboxRotator.cs: c122ade9e2d3a916264f47a45be02789 -> 
-  custom:scripting/monoscript/fileName/TCP2_GUI.cs: 9da1aa00fa03a8cbbe4fb2bfbd8b3735 -> 
-  custom:scripting/monoscript/fileName/TCP2_RuntimeUtils.cs: 0ab6ce00215d9042340fffb5effaa22e -> 
-  custom:scripting/monoscript/fileName/DynamicJoystick.cs: fa6fdbd0de9beec4a70bc764c26bb796 -> 
-  custom:scripting/monoscript/fileName/LettersCollor.cs: 402d8b8e44dd69e1dafef36c3f717549 -> 
-  custom:scripting/monoscript/fileName/PlayerMovementControl.cs: e889c2ce82e6f10e940d9faf87e23dfd -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/LettersObjectEnabler.cs: 59c855d0fa9ca03a91607287ec8282f3 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/TCP2_Utils.cs: 81e4f24e908420966db1cce671db2b86 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_PBS_SG.cs: 460ebbf2e36fea092951c957b6df65dc -> 
-  custom:scripting/monoscript/fileName/TCP2_Menu.cs: ce2e1bd819fc9a5ea875522ead7a6986 -> 
-  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 516035e2342d093d90fb2bd11ff41e68 -> 
-  custom:scripting/monoscript/fileName/CameraFollow.cs: de990732cc429467f8f49571d0872163 -> 
-  custom:scripting/monoscript/fileName/TCP2_CameraDepth.cs: 0a8ab1e1af7670fc41941ea34ebb62e3 -> 
-  custom:scripting/monoscript/fileName/FPSWalkerEnhanced.cs: 83ef146d82d16e0154acb6ccb6ea706a -> 
-  custom:scripting/monoscript/fileName/Singleton.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderUpdateUnityTime_Editor.cs: a68e8abab89e6087f8c8574c7a99d5b5 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderGenerator.UIFeatures.cs: 1d2933bc56d7311d0449931f9ae688f2 -> 
-  custom:scripting/monoscript/fileName/SkyboxChanger.cs: 27a9374ce1608ea6a343361af3aa7d38 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_SurfacePBS_SG.cs: 696d30802c64eaebeea55667b0b9a9c6 -> 
-  custom:scripting/monoscript/fileName/LevelLetter.cs: f44979240834efd79bf8f7ee42ba99fb -> 
-  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: fee5e077b31909c4bba3d7329fdefd90 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderUpdateUnityTime.cs: 0ab4f42e01b5882e48eac30fe2c1ac94 -> 
-  custom:scripting/monoscript/fileName/TCP2_PlanarReflection.cs: 1c507eb294014d8ee727c3dba8d8c63c -> 
-  custom:scripting/monoscript/fileName/TCP2_RampGenerator.cs: cee165a3e5b21fb77b2dbbeaaf6f541a -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_SG.cs: d25c305f0c08552721eedcbb0a919d08 -> 
-  custom:scripting/monoscript/fileName/LevelNumberManager.cs: 52a6f1687733b22d1a66109b72d802bf -> 
-  custom:scripting/monoscript/fileName/TCP2_Config.cs: 89373d780ee9ac0e5180adf975f4999e -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector.cs: 3c34d9c8cd5840743f2b2846879ca4b0 -> 
-  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
-  custom:scripting/monoscript/fileName/TCP2_GetPosOnWater.cs: 1bd6b61ff2aaea8774213482829b7e04 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/LettersFollow.cs: 63f9ccb07f04632cf428d62ebbce452a -> 
-  custom:scripting/monoscript/fileName/TCP2_OutlineInspector.cs: 05d125d75323aa4419b44ac4f482c81c -> 
-  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 20a94efd412f2009d4e6722fe16a3051 -> 
-  custom:scripting/monoscript/fileName/VariableJoystick.cs: 6a21e483212ef280c767be5522709419 -> 
-  custom:scripting/monoscript/fileName/FixedJoystick.cs: ceaced0056a716bd82a85e0f3d488361 -> 
-  custom:scripting/monoscript/fileName/EnemyMovement.cs: 412fe8bfc02b303367e86c00beafba4d -> 
-  custom:scripting/monoscript/fileName/TCP2_ExpressionParser.cs: bce801af8075035dd5ce8fa98c7fff39 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_PBS.cs: d24cd2826ab76e671701064f2ee9284a -> 
-  custom:scripting/monoscript/fileName/TCP2_SmoothedNormalsUtility.cs: a2d8e9a6bfea1459eaab740b372d1d2f -> 
-  custom:scripting/monoscript/fileName/Joystick.cs: c13c665079b3ba178e3a8ef05c62070b -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 12112.649142 seconds.
-  path: Assets/Game/Scenes
-  artifactKey: Guid(701cdad2b329048d69f55f003831f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scenes using Guid(701cdad2b329048d69f55f003831f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb887359d17bf05869534a73b6199093') in 0.005825 seconds
+  Time since last request: 34324.099057 seconds.
+  path: Assets/Game/Graphics/2D/Video/intro Video.mov
+  artifactKey: Guid(d82235da0449a4c16b4a3a0118c9a10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Graphics/2D/Video/intro Video.mov using Guid(d82235da0449a4c16b4a3a0118c9a10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc77e8619935f8e1d4b0b7055f6537d') in 0.009700 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.241875 seconds.
-  path: Assets/Game/Scenes/Main Menu.unity
-  artifactKey: Guid(54bc5f39560cf447ebcd1be2e167bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scenes/Main Menu.unity using Guid(54bc5f39560cf447ebcd1be2e167bd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59517811ce38f907442fb0edd49b7845') in 0.000512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1514.815337 seconds.
-  path: Assets/Game/Graphics/logo.png
-  artifactKey: Guid(69915238a315f41f6a7a2ef59be74df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Graphics/logo.png using Guid(69915238a315f41f6a7a2ef59be74df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d10713b95b876a8931168b27a972f07') in 0.067572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-[usbmuxd] Detached: 73 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 97 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 97 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 98 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 98 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 99 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 99 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 100 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 100 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 101 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 101 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 102 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 102 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 103 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 103 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 104 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 104 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 105 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 105 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 106 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 106 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 107 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 107 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 108 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 108 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 111 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 111 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 112 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 112 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 113 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 113 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 115 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 115 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 118 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 118 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 120 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 120 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 121 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 121 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 122 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 122 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 123 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 123 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 124 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 124 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 125 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 125 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 126 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 126 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 127 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 127 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 128 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 128 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 132 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 132 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 135 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 135 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 136 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 136 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 137 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 137 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 139 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 139 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 140 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 140 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 143 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 143 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 145 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 145 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 146 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 146 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 147 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 147 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 149 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 149 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 150 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 150 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 151 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 151 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 152 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 152 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 153 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 153 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 154 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 154 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 155 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 155 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 156 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 156 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 157 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 157 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 158 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 158 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 160 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 160 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 161 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 161 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 162 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 162 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 163 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 163 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 164 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 164 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 165 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 165 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 166 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 166 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 167 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 167 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 168 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 168 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 169 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 169 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 170 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 170 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 178 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 178 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 184 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 184 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 188 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 188 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 190 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 190 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 192 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 192 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 193 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 193 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 194 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 194 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 195 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 195 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 196 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 196 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 197 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 197 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 199 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 199 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 201 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 201 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 204 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 204 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 205 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 205 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 209 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 209 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 212 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 212 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 213 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 213 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 214 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 214 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 215 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 215 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 216 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 216 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 217 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 217 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 219 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 219 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 221 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 221 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 222 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 222 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 223 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 223 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 225 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 225 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 227 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 227 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 228 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 228 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 230 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 230 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 231 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 231 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 232 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 232 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 234 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 234 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 235 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 235 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 237 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 237 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 238 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 238 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 239 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 239 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 240 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 240 00008030-001D04EC0AE9802E
-[usbmuxd] Attached: 241 00008030-001D04EC0AE9802E
-[usbmuxd] Detached: 241 00008030-001D04EC0AE9802E
-========================================================================
-Received Import Request.
-  Time since last request: 17815.859573 seconds.
-  path: Assets/WebView/Scene/WebView.unity
-  artifactKey: Guid(c13c0f120797d46ad971dd6a1a43c6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WebView/Scene/WebView.unity using Guid(c13c0f120797d46ad971dd6a1a43c6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbdab4427b372706082c41a46a25c2a') in 0.002971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.070912 seconds.
-  path: Assets/FacebookSDK/SDK/Editor
-  artifactKey: Guid(44e11130e9d7b4d46848ace5825c134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FacebookSDK/SDK/Editor using Guid(44e11130e9d7b4d46848ace5825c134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cdeb95e04606c35b316e96d963a2d6') in 0.001392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.054122 seconds.
-  path: Assets/FacebookSDK
-  artifactKey: Guid(fc2c75ecfae6f4464bf4849a1701f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FacebookSDK using Guid(fc2c75ecfae6f4464bf4849a1701f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1ff24bf5b2b13a1e08b3148796c4f7') in 0.001052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 575.615267 seconds.
-  path: Assets/UCB
-  artifactKey: Guid(1763de2d3744f4efc81da3cc4d824557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UCB using Guid(1763de2d3744f4efc81da3cc4d824557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48a6e71dff9399e48482ae71346485e') in 0.000362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 109.026152 seconds.
-  path: Assets/UCB/Editor/EnableBitcodeForPods.cs
-  artifactKey: Guid(d0860809b73824593a033f80916f34a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UCB/Editor/EnableBitcodeForPods.cs using Guid(d0860809b73824593a033f80916f34a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02b05af6a219d93630361c32a5ba38b') in 0.001331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x29f73f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Volumes/SSD/Gambling/Rock of Ancient/Rock of Ancient/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.539 seconds
-Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.654 seconds
-Domain Reload Profiling: 1193ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (377ms)
-		LoadAssemblies (208ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (182ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (654ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (230ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (141ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (51.0 KB). Loaded Objects now: 3749.
-Memory consumption went from 209.2 MB to 209.1 MB.
-Total: 2.730792 ms (FindLiveObjects: 0.129041 ms CreateObjectMapping: 0.041750 ms MarkObjects: 2.431958 ms  DeleteObjects: 0.127625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/JoystickEditor.cs: 406670d2fe263f5d7c582f8389f2b844 -> 
-  custom:scripting/monoscript/fileName/TCP2_GradientManager.cs: a8cb5740870b39e316c8a7c50874ce30 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 2ec96b3abad264f4393a91b76b487cb7 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderGeneratorUtils.cs: 9c7aac7c5398a863aa5ef5699292a33b -> 
-  custom:scripting/monoscript/fileName/GameManager.cs: 9933fbcc6190e2a9171c2ec8808a053e -> 
-  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: 9ef810522df7cdd512f52a98ae7a04f9 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/TCP2_GetPosOnWater_Editor.cs: ce4559eba0076e67582edc9e5cd1bf3a -> 
-  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: f92673ca2cd03c2f140cf81ccfee7ccb -> 
-  custom:scripting/monoscript/fileName/SkyboxRotator.cs: c122ade9e2d3a916264f47a45be02789 -> 
-  custom:scripting/monoscript/fileName/TCP2_GUI.cs: 9da1aa00fa03a8cbbe4fb2bfbd8b3735 -> 
-  custom:scripting/monoscript/fileName/TCP2_RuntimeUtils.cs: 0ab6ce00215d9042340fffb5effaa22e -> 
-  custom:scripting/monoscript/fileName/DynamicJoystick.cs: fa6fdbd0de9beec4a70bc764c26bb796 -> 
-  custom:scripting/monoscript/fileName/LettersCollor.cs: 402d8b8e44dd69e1dafef36c3f717549 -> 
-  custom:scripting/monoscript/fileName/PlayerMovementControl.cs: e889c2ce82e6f10e940d9faf87e23dfd -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/LettersObjectEnabler.cs: 59c855d0fa9ca03a91607287ec8282f3 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/TCP2_Utils.cs: 81e4f24e908420966db1cce671db2b86 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_PBS_SG.cs: 460ebbf2e36fea092951c957b6df65dc -> 
-  custom:scripting/monoscript/fileName/TCP2_Menu.cs: ce2e1bd819fc9a5ea875522ead7a6986 -> 
-  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 516035e2342d093d90fb2bd11ff41e68 -> 
-  custom:scripting/monoscript/fileName/CameraFollow.cs: de990732cc429467f8f49571d0872163 -> 
-  custom:scripting/monoscript/fileName/TCP2_CameraDepth.cs: 0a8ab1e1af7670fc41941ea34ebb62e3 -> 
-  custom:scripting/monoscript/fileName/FPSWalkerEnhanced.cs: 83ef146d82d16e0154acb6ccb6ea706a -> 
-  custom:scripting/monoscript/fileName/Singleton.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderUpdateUnityTime_Editor.cs: a68e8abab89e6087f8c8574c7a99d5b5 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderGenerator.UIFeatures.cs: 1d2933bc56d7311d0449931f9ae688f2 -> 
-  custom:scripting/monoscript/fileName/SkyboxChanger.cs: 27a9374ce1608ea6a343361af3aa7d38 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_SurfacePBS_SG.cs: 696d30802c64eaebeea55667b0b9a9c6 -> 
-  custom:scripting/monoscript/fileName/LevelLetter.cs: f44979240834efd79bf8f7ee42ba99fb -> 
-  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: fee5e077b31909c4bba3d7329fdefd90 -> 
-  custom:scripting/monoscript/fileName/TCP2_ShaderUpdateUnityTime.cs: 0ab4f42e01b5882e48eac30fe2c1ac94 -> 
-  custom:scripting/monoscript/fileName/TCP2_PlanarReflection.cs: 1c507eb294014d8ee727c3dba8d8c63c -> 
-  custom:scripting/monoscript/fileName/TCP2_RampGenerator.cs: cee165a3e5b21fb77b2dbbeaaf6f541a -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_SG.cs: d25c305f0c08552721eedcbb0a919d08 -> 
-  custom:scripting/monoscript/fileName/LevelNumberManager.cs: 52a6f1687733b22d1a66109b72d802bf -> 
-  custom:scripting/monoscript/fileName/TCP2_Config.cs: 89373d780ee9ac0e5180adf975f4999e -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector.cs: 3c34d9c8cd5840743f2b2846879ca4b0 -> 
-  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
-  custom:scripting/monoscript/fileName/TCP2_GetPosOnWater.cs: 1bd6b61ff2aaea8774213482829b7e04 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/LettersFollow.cs: 63f9ccb07f04632cf428d62ebbce452a -> 
-  custom:scripting/monoscript/fileName/TCP2_OutlineInspector.cs: 05d125d75323aa4419b44ac4f482c81c -> 
-  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 20a94efd412f2009d4e6722fe16a3051 -> 
-  custom:scripting/monoscript/fileName/VariableJoystick.cs: 6a21e483212ef280c767be5522709419 -> 
-  custom:scripting/monoscript/fileName/FixedJoystick.cs: ceaced0056a716bd82a85e0f3d488361 -> 
-  custom:scripting/monoscript/fileName/EnemyMovement.cs: 412fe8bfc02b303367e86c00beafba4d -> 
-  custom:scripting/monoscript/fileName/TCP2_ExpressionParser.cs: bce801af8075035dd5ce8fa98c7fff39 -> 
-  custom:scripting/monoscript/fileName/TCP2_MaterialInspector_PBS.cs: d24cd2826ab76e671701064f2ee9284a -> 
-  custom:scripting/monoscript/fileName/TCP2_SmoothedNormalsUtility.cs: a2d8e9a6bfea1459eaab740b372d1d2f -> 
-  custom:scripting/monoscript/fileName/Joystick.cs: c13c665079b3ba178e3a8ef05c62070b -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4.740406 seconds.
-  path: Assets/UCB/Editor/EnableBitcodeForPods.cs
-  artifactKey: Guid(d0860809b73824593a033f80916f34a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UCB/Editor/EnableBitcodeForPods.cs using Guid(d0860809b73824593a033f80916f34a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db33ab2e3187a0b1b7306603d71c646') in 0.001066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 89.018889 seconds.
-  path: Assets/ExternalDependencyManager
-  artifactKey: Guid(e7f679112961a0f7f11fdb3f983aed77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalDependencyManager using Guid(e7f679112961a0f7f11fdb3f983aed77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc746892dca9f5392668ccffcf4b13b') in 0.000468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
