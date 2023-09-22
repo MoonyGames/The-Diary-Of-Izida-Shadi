@@ -892,3 +892,4 @@ Received Import Request.
 Start importing Assets/Game/Scenes/Level 9.unity using Guid(2653fa41fade34c3ea90e4a0135c4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7610003af8e695a861bfd91929eafdff') in 0.000489 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+[usbmuxd] Attached: 487 00008030-000554443E68C02E

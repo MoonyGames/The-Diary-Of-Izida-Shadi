@@ -828,3 +828,4 @@ Received Import Request.
 Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38e5363d331dced9076f030258438d9') in 0.011098 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
+[usbmuxd] Attached: 487 00008030-000554443E68C02E
