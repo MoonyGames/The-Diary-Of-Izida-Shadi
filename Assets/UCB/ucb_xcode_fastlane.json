@@ -1,6 +1,6 @@
 {
-    "fastfile": "Assets/ucb/Fastfile",
-    "gymfile": "Assets/ucb/Gymfile",
+    "fastfile": "Assets/UCB/Fastfile",
+    "gymfile": "Assets/UCB/Gymfile",
     "lanes": {
         "pre_build": "use_OneSignal_profile",
         "post_build": ""
