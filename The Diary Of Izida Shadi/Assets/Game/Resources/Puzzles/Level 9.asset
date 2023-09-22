@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfa1872a41ba43838035126d368aa31, type: 3}
+  m_Name: Level 9
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 6
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - B
+    - D
+    - E
+    - N
+    - G
+    - I
+    - R
+    - O
+    - A
+    - H
+  - Size: 10
+    Row:
+    - S
+    - E
+    - W
+    - Q
+    - L
+    - N
+    - M
+    - T
+    - F
+    - R
+  - Size: 10
+    Row:
+    - F
+    - N
+    - N
+    - R
+    - E
+    - Z
+    - R
+    - D
+    - Y
+    - Q
+  - Size: 10
+    Row:
+    - D
+    - D
+    - K
+    - N
+    - H
+    - A
+    - R
+    - M
+    - E
+    - S
+  - Size: 10
+    Row:
+    - K
+    - A
+    - R
+    - I
+    - U
+    - O
+    - F
+    - O
+    - S
+    - G
+  - Size: 10
+    Row:
+    - N
+    - U
+    - B
+    - I
+    - A
+    - K
+    - N
+    - U
+    - F
+    - U
+  SearchWords:
+  - Word: BENNU
+  - Word: KARI
+  - Word: DENGIROAH
+  - Word: NUBIA
+  - Word: HARMES
+  - Word: KHUFU

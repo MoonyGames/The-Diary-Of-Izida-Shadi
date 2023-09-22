@@ -1,0 +1,2 @@
+UnityEngine.Application::RequestAdvertisingIdentifierAsync
+UnityEngine.Input

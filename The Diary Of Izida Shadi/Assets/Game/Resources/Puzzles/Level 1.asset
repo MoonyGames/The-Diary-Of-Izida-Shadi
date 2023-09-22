@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfa1872a41ba43838035126d368aa31, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 6
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - A
+    - N
+    - U
+    - B
+    - I
+    - S
+    - R
+    - I
+    - N
+    - S
+  - Size: 10
+    Row:
+    - B
+    - D
+    - R
+    - L
+    - P
+    - N
+    - J
+    - Y
+    - H
+    - C
+  - Size: 10
+    Row:
+    - L
+    - V
+    - A
+    - N
+    - U
+    - B
+    - I
+    - S
+    - P
+    - A
+  - Size: 10
+    Row:
+    - E
+    - Y
+    - M
+    - Y
+    - O
+    - N
+    - R
+    - E
+    - X
+    - Z
+  - Size: 10
+    Row:
+    - D
+    - T
+    - J
+    - D
+    - L
+    - R
+    - A
+    - V
+    - M
+    - H
+  - Size: 10
+    Row:
+    - N
+    - R
+    - O
+    - Q
+    - Q
+    - M
+    - S
+    - G
+    - H
+    - A
+  SearchWords:
+  - Word: ANUBIS

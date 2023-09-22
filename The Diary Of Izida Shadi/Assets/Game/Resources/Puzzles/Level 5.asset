@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfa1872a41ba43838035126d368aa31, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 6
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - M
+    - S
+    - P
+    - Y
+    - S
+    - V
+    - S
+    - A
+    - L
+    - M
+  - Size: 10
+    Row:
+    - Z
+    - E
+    - F
+    - R
+    - E
+    - S
+    - C
+    - O
+    - E
+    - S
+  - Size: 10
+    Row:
+    - G
+    - L
+    - O
+    - S
+    - I
+    - R
+    - I
+    - S
+    - D
+    - A
+  - Size: 10
+    Row:
+    - S
+    - K
+    - H
+    - O
+    - R
+    - U
+    - S
+    - K
+    - F
+    - E
+  - Size: 10
+    Row:
+    - F
+    - I
+    - P
+    - Y
+    - W
+    - T
+    - M
+    - H
+    - C
+    - R
+  - Size: 10
+    Row:
+    - A
+    - S
+    - L
+    - D
+    - J
+    - R
+    - A
+    - D
+    - E
+    - C
+  SearchWords:
+  - Word: OSIRIS
+  - Word: HORUS
+  - Word: SELKIS
+  - Word: FRESCOES
+  - Word: CEDAR

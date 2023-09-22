@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfa1872a41ba43838035126d368aa31, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 6
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - E
+    - X
+    - W
+    - G
+    - B
+    - A
+    - R
+    - D
+    - Z
+    - J
+  - Size: 10
+    Row:
+    - G
+    - Y
+    - P
+    - R
+    - P
+    - B
+    - Y
+    - O
+    - R
+    - Y
+  - Size: 10
+    Row:
+    - Y
+    - P
+    - H
+    - E
+    - S
+    - I
+    - B
+    - U
+    - N
+    - A
+  - Size: 10
+    Row:
+    - P
+    - S
+    - D
+    - G
+    - E
+    - Q
+    - I
+    - M
+    - Y
+    - I
+  - Size: 10
+    Row:
+    - T
+    - Z
+    - P
+    - C
+    - L
+    - P
+    - A
+    - Y
+    - P
+    - X
+  - Size: 10
+    Row:
+    - C
+    - W
+    - O
+    - E
+    - Y
+    - Y
+    - D
+    - Q
+    - E
+    - O
+  SearchWords:
+  - Word: ANUBIS
+  - Word: EGYPT
