@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708708, g: 0.37838137, b: 0.35725543, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311915, g: 0.3807396, b: 0.35872662, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -104,7 +104,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 3
+    serializedVersion: 2
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +117,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    buildHeightMesh: 0
+    accuratePlacement: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -128,7 +128,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3577626843149267894, guid: fa79c615e83e14e2fbc0f083dee317e0, type: 3}
@@ -173,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4535964444866646681, guid: fa79c615e83e14e2fbc0f083dee317e0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6712002539596242414, guid: fa79c615e83e14e2fbc0f083dee317e0, type: 3}
       propertyPath: m_Name
@@ -181,12 +180,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8326779526755350221, guid: fa79c615e83e14e2fbc0f083dee317e0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa79c615e83e14e2fbc0f083dee317e0, type: 3}
 --- !u!114 &722440216 stripped
 MonoBehaviour:
@@ -388,13 +384,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4557664489270156388}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &4210370019934413460
 RectTransform:
@@ -410,6 +406,7 @@ RectTransform:
   m_Children:
   - {fileID: 8153278495213448637}
   m_Father: {fileID: 6915637927240754183}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -459,6 +456,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8153278495213448637}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -475,11 +473,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2302946428840486125}
   - component: {fileID: 9193570543276250321}
-  - component: {fileID: 8842286366422794364}
   - component: {fileID: 8709616342827438668}
   - component: {fileID: 5073813222707813883}
   - component: {fileID: 9193570543276250322}
   - component: {fileID: 9193570543276250323}
+  - component: {fileID: 9193570543276250324}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -504,9 +502,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -622,7 +618,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813372160572330307}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -630,6 +625,7 @@ Transform:
   m_Children:
   - {fileID: 4210370019934413460}
   m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!222 &7384052816232449082
 CanvasRenderer:
@@ -671,6 +667,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8153278495213448637}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -692,6 +689,7 @@ RectTransform:
   - {fileID: 4336540519275919103}
   - {fileID: 7658280487230356049}
   m_Father: {fileID: 4210370019934413460}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -749,23 +747,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _debugMode: 1
---- !u!114 &8842286366422794364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4557664489270156388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e6776d79a3b4f50802c2899ff3e869, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isOrganic: 1
-  domain: appietechapps.site
-  AF_KEY: cUH46Rb5jwQTDFWRxrRaJX
-  SIGNAL_KEY: 989ea4f0-cd30-4262-abdf-371a0f3ec0f6
-  APP_ID: 6467261186
 --- !u!20 &9193570543276250321
 Camera:
   m_ObjectHideFlags: 0
@@ -780,17 +761,9 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -842,10 +815,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextScreenPrefab: {fileID: 722440216}
---- !u!1660057539 &9223372036854775807
-SceneRoots:
+--- !u!114 &9193570543276250324
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_Roots:
-  - {fileID: 2302946428840486125}
-  - {fileID: 6915637927240754183}
-  - {fileID: 722440215}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557664489270156388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e6776d79a3b4f50802c2899ff3e869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOrganic: 1
+  domain: appietechapps.site
+  AF_KEY: cUH46Rb5jwQTDFWRxrRaJX
+  SIGNAL_KEY: 989ea4f0-cd30-4262-abdf-371a0f3ec0f6
+  APP_ID: 6467261186
