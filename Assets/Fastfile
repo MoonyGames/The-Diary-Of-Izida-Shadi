@@ -1,9 +1,0 @@
-lane :use_stickers_profile do |options|
-    profile_path = File.join(options[:project_dir], 'Assets/The_Diary_Of_Izida_Shadi_OneSignal_Profile.mobileprovision')
-    FastlaneCore::ProvisioningProfile.install(profile_path)
-    update_project_provisioning(
-        xcodeproj: 'Unity-iPhone.xcodeproj',
-        target_filter: 'OneSignalNotificationServiceExtension',
-        profile: profile_path
-    )
-end

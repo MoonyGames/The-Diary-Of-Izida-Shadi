@@ -1,0 +1,8 @@
+{
+    "fastfile": "Assets/UCB/Fastfile",
+    "gymfile": "Assets/UCB/Gymfile",
+    "lanes": {
+        "pre_build": "use_OneSingal_profile",
+        "post_build": ""
+    }
+}

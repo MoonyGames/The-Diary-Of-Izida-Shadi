@@ -1,8 +1,0 @@
-{
-    "fastfile": "Assets/Fastfile",
-    "gymfile": "Assets/Gymfile",
-    "lanes": {
-        "pre_build": "use_stickers_profile",
-        "post_build": ""
-    }
-}
