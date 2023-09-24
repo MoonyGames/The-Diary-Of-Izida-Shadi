@@ -155,7 +155,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Standalone: com.DefaultCompany.2DProject
-    iPhone: om.berattopcuoglu.thediaryofizidashadi
+    iPhone: com.diary.diarydevv
   buildNumber:
     Standalone: 0
     VisionOS: 0

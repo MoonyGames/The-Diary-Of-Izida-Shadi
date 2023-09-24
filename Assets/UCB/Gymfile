@@ -1,5 +1,0 @@
-export_options(
-    provisioningProfiles: {
-        "com.berattopcuoglu.thediaryofizidashadi.OneSignalNotificationServiceExtension" => "3e6a4995-4fec-459b-b509-20d1fc575f92"
-    }
-)
