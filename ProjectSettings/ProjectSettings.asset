@@ -155,7 +155,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Standalone: com.DefaultCompany.2DProject
-    iPhone: com.diary.diarydevv
+    iPhone: com.diary.diarydev
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -230,7 +230,7 @@ PlayerSettings:
   iOSRenderExtraFrameOnPause: 0
   iosCopyPluginsCodeInsteadOfSymlink: 0
   appleDeveloperTeamID: 4N3N66LCHU
-  iOSManualSigningProvisioningProfileID: 7da848f9-542c-4686-811c-27d550d14a0a
+  iOSManualSigningProvisioningProfileID: 0ac35cc7-1fde-49a3-b934-8a975f6228a0
   tvOSManualSigningProvisioningProfileID: 
   VisionOSManualSigningProvisioningProfileID: 
   iOSManualSigningProvisioningProfileType: 2
