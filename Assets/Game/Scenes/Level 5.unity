@@ -1926,9 +1926,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentGameData: {fileID: 11400000, guid: 049a286cddfc24f3d9e5bb7c539dd12a, type: 2}
   SearchingWordPrefab: {fileID: 1688107047929364922, guid: 9e1740a0a778643169bbca31e6904b3a, type: 3}
-  offset: 0
-  maxColumns: 2
-  maxRows: 2
+  offset: -10
+  maxColumns: 3
+  maxRows: 3
 --- !u!1 &1627284661
 GameObject:
   m_ObjectHideFlags: 0

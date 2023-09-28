@@ -18,80 +18,80 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - B
-    - D
-    - E
-    - N
-    - G
-    - I
-    - R
-    - O
     - A
-    - H
-  - Size: 10
-    Row:
+    - N
     - S
     - E
-    - W
-    - Q
     - L
+    - K
+    - I
+    - S
+    - A
+    - P
+  - Size: 10
+    Row:
+    - C
     - N
-    - M
     - T
-    - F
-    - R
-  - Size: 10
-    Row:
-    - F
-    - N
-    - N
-    - R
-    - E
-    - Z
-    - R
-    - D
     - Y
-    - Q
-  - Size: 10
-    Row:
-    - D
-    - D
-    - K
-    - N
-    - H
-    - A
-    - R
-    - M
+    - I
     - E
     - S
-  - Size: 10
-    Row:
-    - K
-    - A
+    - L
+    - T
     - R
-    - I
-    - U
-    - O
-    - F
-    - O
-    - S
-    - G
   - Size: 10
     Row:
     - N
-    - U
-    - B
+    - Z
+    - H
+    - O
+    - Y
+    - Y
+    - P
+    - X
+    - H
     - I
-    - A
-    - K
+  - Size: 10
+    Row:
+    - S
+    - U
     - N
     - U
+    - A
     - F
-    - U
+    - T
+    - L
+    - Y
+    - E
+  - Size: 10
+    Row:
+    - A
+    - T
+    - E
+    - N
+    - T
+    - B
+    - A
+    - J
+    - N
+    - S
+  - Size: 10
+    Row:
+    - F
+    - Q
+    - F
+    - H
+    - V
+    - P
+    - H
+    - T
+    - K
+    - T
   SearchWords:
-  - Word: BENNU
-  - Word: KARI
-  - Word: DENGIROAH
-  - Word: NUBIA
-  - Word: HARMES
-  - Word: KHUFU
+  - Word: ANHU
+  - Word: ATEN
+  - Word: PRIEST
+  - Word: SELKIS
+  - Word: PTAH
+  - Word: SUN

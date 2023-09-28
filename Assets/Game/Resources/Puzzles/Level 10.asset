@@ -18,80 +18,80 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - B
-    - D
-    - E
-    - N
-    - G
-    - I
-    - R
-    - O
-    - A
-    - H
-  - Size: 10
-    Row:
-    - S
-    - E
-    - W
     - Q
-    - L
+    - V
+    - D
+    - A
     - N
-    - M
-    - T
-    - F
-    - R
-  - Size: 10
-    Row:
-    - F
-    - N
-    - N
-    - R
-    - E
     - Z
-    - R
-    - D
-    - Y
-    - Q
-  - Size: 10
-    Row:
-    - D
-    - D
-    - K
-    - N
-    - H
-    - A
-    - R
+    - J
     - M
-    - E
-    - S
+    - F
+    - A
   - Size: 10
     Row:
-    - K
+    - A
+    - O
+    - F
+    - E
+    - O
+    - D
+    - O
+    - Y
+    - M
+    - H
+  - Size: 10
+    Row:
+    - S
+    - A
+    - Q
+    - Q
     - A
     - R
-    - I
-    - U
-    - O
-    - F
-    - O
-    - S
+    - A
     - G
+    - A
+    - M
   - Size: 10
     Row:
-    - N
-    - U
-    - B
-    - I
     - A
+    - A
+    - B
+    - X
+    - M
     - K
-    - N
+    - E
+    - L
+    - G
+    - O
+  - Size: 10
+    Row:
+    - M
+    - A
     - U
+    - M
+    - M
+    - B
+    - B
+    - L
+    - I
+    - S
+  - Size: 10
+    Row:
     - F
-    - U
+    - A
+    - C
+    - T
+    - O
+    - R
+    - Y
+    - Y
+    - C
+    - E
   SearchWords:
-  - Word: BENNU
-  - Word: KARI
-  - Word: DENGIROAH
-  - Word: NUBIA
-  - Word: HARMES
-  - Word: KHUFU
+  - Word: FACTORY
+  - Word: MAGIC
+  - Word: UMM
+  - Word: GEB
+  - Word: AHMOSE
+  - Word: SAQQARA

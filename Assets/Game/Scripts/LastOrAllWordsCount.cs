@@ -35,7 +35,8 @@ public class LastOrAllWordsCount : MonoBehaviour
 
     public void DecreaseLastWordsCount()
     {
-        _wordsLast.text = (_wordsCount - 1).ToString();
+        _wordsCount -= 1;
+        _wordsLast.text = _wordsCount.ToString();
 
         if(Convert.ToInt32(_wordsLast.text) == 0) _winMenu.SetActive(true);
     }

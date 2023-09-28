@@ -17,8 +17,6 @@ public class LoadNextLevel : MonoBehaviour
     {
         int level = PlayerPrefs.GetInt("Level", 1);
 
-        if (level == 11) level = 1;
-
         _currentGameData.selectedBoardData = _levels[level - 1];
 
         SceneManager.LoadScene("Level " + level.ToString());

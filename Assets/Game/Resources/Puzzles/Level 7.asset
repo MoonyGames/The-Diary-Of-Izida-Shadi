@@ -18,80 +18,80 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
+    - F
     - B
-    - D
-    - E
-    - N
-    - G
-    - I
-    - R
-    - O
+    - U
+    - B
     - A
-    - H
-  - Size: 10
-    Row:
     - S
-    - E
-    - W
-    - Q
-    - L
-    - N
-    - M
     - T
-    - F
-    - R
+    - I
+    - S
+    - N
   - Size: 10
     Row:
-    - F
-    - N
-    - N
-    - R
-    - E
-    - Z
-    - R
+    - A
     - D
+    - W
+    - N
+    - E
+    - F
+    - E
+    - R
+    - K
+    - U
+  - Size: 10
+    Row:
     - Y
-    - Q
-  - Size: 10
-    Row:
-    - D
-    - D
-    - K
-    - N
-    - H
-    - A
-    - R
-    - M
+    - O
     - E
-    - S
-  - Size: 10
-    Row:
-    - K
-    - A
-    - R
-    - I
-    - U
-    - O
-    - F
-    - O
-    - S
+    - E
     - G
+    - X
+    - P
+    - F
+    - Y
+    - B
   - Size: 10
     Row:
-    - N
     - U
-    - B
+    - J
     - I
-    - A
-    - K
-    - N
-    - U
     - F
-    - U
+    - C
+    - G
+    - P
+    - A
+    - V
+    - I
+  - Size: 10
+    Row:
+    - M
+    - Y
+    - O
+    - T
+    - O
+    - B
+    - G
+    - W
+    - T
+    - A
+  - Size: 10
+    Row:
+    - H
+    - E
+    - H
+    - I
+    - B
+    - D
+    - E
+    - A
+    - Y
+    - N
   SearchWords:
-  - Word: BENNU
-  - Word: KARI
-  - Word: DENGIROAH
+  - Word: FAYUM
+  - Word: BUBASTIS
+  - Word: DEFOD
+  - Word: HEHI
   - Word: NUBIA
-  - Word: HARMES
-  - Word: KHUFU
+  - Word: NEFER

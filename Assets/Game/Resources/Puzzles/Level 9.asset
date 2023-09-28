@@ -18,80 +18,80 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - B
-    - D
-    - E
-    - N
     - G
-    - I
-    - R
     - O
-    - A
-    - H
-  - Size: 10
-    Row:
-    - S
+    - B
     - E
-    - W
-    - Q
     - L
-    - N
+    - I
+    - S
+    - K
     - M
     - T
-    - F
-    - R
   - Size: 10
     Row:
-    - F
-    - N
-    - N
-    - R
-    - E
-    - Z
-    - R
-    - D
-    - Y
-    - Q
-  - Size: 10
-    Row:
-    - D
-    - D
-    - K
-    - N
-    - H
-    - A
-    - R
+    - O
     - M
-    - E
-    - S
+    - U
+    - M
+    - M
+    - Y
+    - R
+    - A
+    - J
+    - A
   - Size: 10
     Row:
-    - K
-    - A
+    - L
     - R
-    - I
-    - U
-    - O
-    - F
-    - O
+    - A
+    - T
+    - A
+    - K
     - S
     - G
+    - X
+    - R
   - Size: 10
     Row:
-    - N
-    - U
-    - B
-    - I
-    - A
-    - K
-    - N
-    - U
+    - D
     - F
-    - U
+    - Q
+    - D
+    - T
+    - T
+    - I
+    - T
+    - R
+    - T
+  - Size: 10
+    Row:
+    - F
+    - P
+    - P
+    - A
+    - A
+    - O
+    - S
+    - X
+    - S
+    - I
+  - Size: 10
+    Row:
+    - Z
+    - R
+    - B
+    - B
+    - S
+    - F
+    - M
+    - X
+    - Z
+    - M
   SearchWords:
-  - Word: BENNU
-  - Word: KARI
-  - Word: DENGIROAH
-  - Word: NUBIA
-  - Word: HARMES
-  - Word: KHUFU
+  - Word: GOLD
+  - Word: MUMMY
+  - Word: OBELISK
+  - Word: KATAR
+  - Word: MITRA
+  - Word: MASTAB

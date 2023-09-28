@@ -3,7 +3,7 @@ using UnityEngine.Video;
 
 [RequireComponent(typeof(VideoPlayer))]
 public class VideoPlayerController : MonoBehaviour
-{
+{   
     private VideoPlayer _videoPlayer;
 
     private void Awake()
