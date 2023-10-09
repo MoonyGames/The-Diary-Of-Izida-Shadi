@@ -11,7 +11,7 @@ using OneSignalSDK;
 using System.Runtime.InteropServices;
 using Unity.Advertisement.IosSupport;
 
-public class iOSScript : MonoBehaviour, IAppsFlyerConversionData
+public class IosScript : MonoBehaviour, IAppsFlyerConversionData
 {
 
 #if UNITY_IOS && !UNITY_EDITOR
