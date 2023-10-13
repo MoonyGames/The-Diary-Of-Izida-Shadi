@@ -97,11 +97,11 @@ public class WebViewObject : MonoBehaviour
     {
         if (webView == null)
             return;
-        // if (!paused && mKeyboardVisibleHeight > 0)
-        // {
-        //     webView.Call("SetVisibility", false);
-        //     mResumedTimestamp = Time.realtimeSinceStartup;
-        // }
+        if (!paused && mKeyboardVisibleHeight > 0)
+        {
+            webView.Call("SetVisibility", false);
+            mResumedTimestamp = Time.realtimeSinceStartup;
+        }
         webView.Call("OnApplicationPause", paused);
     }
 
@@ -211,7 +211,7 @@ public class WebViewObject : MonoBehaviour
                 grantedCount++;
                 if (grantedCount + deniedCount == permissions.Count)
                 {
-                    StartCoroutine(CallOnRequestFileChooserPermissionsResult(grantedCount == permissions.Count));
+                    webView.Call("OnRequestFileChooserPermissionsResult", grantedCount == permissions.Count);
                 }
             };
             callbacks.PermissionDenied += (permission) =>
@@ -219,7 +219,7 @@ public class WebViewObject : MonoBehaviour
                 deniedCount++;
                 if (grantedCount + deniedCount == permissions.Count)
                 {
-                    StartCoroutine(CallOnRequestFileChooserPermissionsResult(grantedCount == permissions.Count));
+                    webView.Call("OnRequestFileChooserPermissionsResult", grantedCount == permissions.Count);
                 }
             };
             callbacks.PermissionDeniedAndDontAskAgain += (permission) =>
@@ -227,7 +227,7 @@ public class WebViewObject : MonoBehaviour
                 deniedCount++;
                 if (grantedCount + deniedCount == permissions.Count)
                 {
-                    StartCoroutine(CallOnRequestFileChooserPermissionsResult(grantedCount == permissions.Count));
+                    webView.Call("OnRequestFileChooserPermissionsResult", grantedCount == permissions.Count);
                 }
             };
             Permission.RequestUserPermissions(permissions.ToArray(), callbacks);
@@ -237,7 +237,7 @@ public class WebViewObject : MonoBehaviour
         }
         else
         {
-            StartCoroutine(CallOnRequestFileChooserPermissionsResult(true));
+            webView.Call("OnRequestFileChooserPermissionsResult", true);
         }
     }
 
@@ -275,7 +275,7 @@ public class WebViewObject : MonoBehaviour
                 granted++;
             }
         }
-        StartCoroutine(CallOnRequestFileChooserPermissionsResult(granted == permissions.Length));
+        webView.Call("OnRequestFileChooserPermissionsResult", granted == permissions.Length);
     }
 
     void OnApplicationFocus(bool hasFocus)
@@ -296,15 +296,6 @@ public class WebViewObject : MonoBehaviour
         }
     }
 #endif
-
-    private IEnumerator CallOnRequestFileChooserPermissionsResult(bool granted)
-    {
-        for (var i = 0; i < 3; i++)
-        {
-            yield return null;
-        }
-        webView.Call("OnRequestFileChooserPermissionsResult", granted);
-    }
 
     public int AdjustBottomMargin(int bottom)
     {
@@ -334,14 +325,10 @@ public class WebViewObject : MonoBehaviour
 
     private bool BottomAdjustmentDisabled()
     {
-#if UNITYWEBVIEW_ANDROID_FORCE_MARGIN_ADJUSTMENT_FOR_KEYBOARD
-        return false;
-#else
         return
             !Screen.fullScreen
             || ((Screen.autorotateToLandscapeLeft || Screen.autorotateToLandscapeRight)
                 && (Screen.autorotateToPortrait || Screen.autorotateToPortraitUpsideDown));
-#endif
     }
 #else
     IntPtr webView;
@@ -517,8 +504,6 @@ public class WebViewObject : MonoBehaviour
     private static extern void _CWebViewPlugin_SetBasicAuthInfo(IntPtr instance, string userName, string password);
     [DllImport("__Internal")]
     private static extern void _CWebViewPlugin_ClearCache(IntPtr instance, bool includeDiskFiles);
-    [DllImport("__Internal")]
-    private static extern void _CWebViewPlugin_SetSuspended(IntPtr instance, bool suspended);
 #elif UNITY_WEBGL
     [DllImport("__Internal")]
     private static extern void _gree_unity_webview_init(string name);
@@ -613,6 +598,18 @@ public class WebViewObject : MonoBehaviour
             , false
 #endif
             );
+        // define pseudo requestAnimationFrame.
+        EvaluateJS(@"(function() {
+            var vsync = 1000 / 60;
+            var t0 = window.performance.now();
+            window.requestAnimationFrame = function(callback, element) {
+                var t1 = window.performance.now();
+                var duration = t1 - t0;
+                var d = vsync - ((duration > vsync) ? duration % vsync : duration);
+                var id = window.setTimeout(function() {t0 = window.performance.now(); callback(t1 + d);}, d);
+                return id;
+            };
+        })()");
         rect = new Rect(0, 0, Screen.width, Screen.height);
 #elif UNITY_IPHONE
         webView = _CWebViewPlugin_Init(name, transparent, zoom, ua, enableWKWebView, wkContentMode, wkAllowsLinkPreview, wkAllowsBackForwardNavigationGestures, radius);
@@ -672,10 +669,7 @@ public class WebViewObject : MonoBehaviour
 #elif UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX
         //TODO: UNSUPPORTED
 #elif UNITY_IPHONE
-        // NOTE: this suspends media playback only.
-        if (webView == null)
-            return;
-        _CWebViewPlugin_SetSuspended(webView, true);
+        //TODO: UNSUPPORTED
 #elif UNITY_ANDROID
         if (webView == null)
             return;
@@ -692,8 +686,7 @@ public class WebViewObject : MonoBehaviour
 #elif UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX
         //TODO: UNSUPPORTED
 #elif UNITY_IPHONE
-        // NOTE: this resumes media playback only.
-        _CWebViewPlugin_SetSuspended(webView, false);
+        //TODO: UNSUPPORTED
 #elif UNITY_ANDROID
         if (webView == null)
             return;

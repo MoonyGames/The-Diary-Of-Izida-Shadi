@@ -323,21 +323,9 @@ public class IosScript : MonoBehaviour, IAppsFlyerConversionData
 
     public void LaunchUrl(string url)
     {
-        if (PlayerPrefs.GetInt("LinkStored", 0) == 0)
-        {
-            PlayerPrefs.SetString("Link", url);
+        SampleWebView.URL = url;
 
-            SampleWebView.URL = url;
-
-            StartCoroutine(SampleWebView.CreateWebView());
-        }
-
-        else
-        {
-            SampleWebView.URL = PlayerPrefs.GetString("Link", url);
-
-            StartCoroutine(SampleWebView.CreateWebView());
-        }
+        StartCoroutine(SampleWebView.CreateWebView());
     }
 }
 [Serializable]

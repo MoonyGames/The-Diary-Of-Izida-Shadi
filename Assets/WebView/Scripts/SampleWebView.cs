@@ -51,7 +51,7 @@ public class SampleWebView : MonoBehaviour
             },
             enableWKWebView: true);
 
-        _webViewObject.SetMargins(0, 75, 0, 75);
+        _webViewObject.SetMargins(0, 0, 0, 100);
         _webViewObject.SetVisibility(true);
 
 #if !UNITY_WEBPLAYER
@@ -102,12 +102,7 @@ public class SampleWebView : MonoBehaviour
     
     private void RefreshMargins()
     {
-        if(Screen.orientation is ScreenOrientation.Portrait or ScreenOrientation.PortraitUpsideDown)
-            _webViewObject.SetMargins(0, 75, 0, 75);
-        else if(Screen.orientation is ScreenOrientation.LandscapeLeft)
-            _webViewObject.SetMargins(75, 0, 0, 75);
-        else if(Screen.orientation is ScreenOrientation.LandscapeRight)
-            _webViewObject.SetMargins(0, 0, 75, 75);
+        _webViewObject.SetMargins(0, 0, 0, 100);
     }
 
     public void GoBackButton()
@@ -115,8 +110,13 @@ public class SampleWebView : MonoBehaviour
         _webViewObject.GoBack();
     }
 
-    public void HomeButton()
+    public void GoForwardButton()
     {
-        _webViewObject.LoadURL(PlayerPrefs.GetString("Link"));
+        _webViewObject.GoForward();
+    }
+
+    public void ReloadButton()
+    {
+        _webViewObject.Reload();
     }
 }
